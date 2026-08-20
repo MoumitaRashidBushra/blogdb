@@ -1,10 +1,8 @@
 # Blog DB
 
-A command-line blog application built with Node.js and Sequelize (MySQL). It supports user registration/login, role-based access (user vs admin), and full CRUD on blog posts through an interactive terminal menu.
+## Project Summary
 
-## 🎥 Demo Video
-
-Watch a walkthrough of the project here: [https://app.usebubbles.com/dye7vARGyu4jCUrYxF2hyn/recording-aug-20-2026](https://app.usebubbles.com/dye7vARGyu4jCUrYxF2hyn/recording-aug-20-2026)
+Blog DB is a command-line blog application built with Node.js and Sequelize (MySQL). Users can register, log in, and manage their own blog posts (create, update, delete, search) through an interactive terminal menu, while admins get elevated access to manage all users and all blogs — including activating/deactivating accounts and deleting any user or blog. Data is persisted in MySQL via two related tables (`users` and `blogs`), with the schema created and synced automatically on startup.
 
 ## Features
 
@@ -133,3 +131,7 @@ blog-db/
 │   └── blogService.js       # Blog-related business logic (CRUD, search)
 └── .env                      # Database configuration (not committed)
 ```
+
+## 🎥 Demo Video
+
+Watch a walkthrough of the project here: [https://app.usebubbles.com/dye7vARGyu4jCUrYxF2hyn/recording-aug-20-2026](https://app.usebubbles.com/dye7vARGyu4jCUrYxF2hyn/recording-aug-20-2026)
